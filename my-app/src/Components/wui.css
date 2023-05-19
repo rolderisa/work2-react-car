@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.all{
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+    background-color: #f1f1f1 ;
+
+}
+.it{
+    height: fit-content;
+    box-sizing: border-box;
+   
+}
+
+
+.navbar{
+    height:10%;
+    background-color: #d51c2a;
+    color: white;
+    width: 100%;
+    font-size: larger;
+    text-align: center;
+    position: fixed;
+    
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 5px 50px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.left{
+    width: 25%;
+    padding-top: 6.5%;
+    align-items: center;
+    text-align: justify;
+    }
+    p{
+        border-radius: 10px;
+        padding-right: 20px;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .popup{
+        width: 400px;
+        background: #fff;
+        border-radius: 6px;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%)scale(0.1);
+        text-align: center;
+        padding:0 30px 30px ;
+        color: #333; 
+        visibility: hidden;
+        transition: transform 0.4s,top 0.4s;
+    }
+    .popup img{
+        padding: 20px;
+    }
+    .open-popup{
+        visibility: visible;
+        top:50%;
+        transform: translate(-50%,-50%)scale(1);
+    }
+    .popup button{
+        width:100%;
+        margin-top: 50px;
+        padding: 10px 0;
+        background: #6fd649;
+        color: #fff;
+        border: 0;
+        outline: none;
+        font-size: 18px;
+        border-radius: 4px;
+        cursor: pointer;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+    }
+    .middle{
+        width: 50%;   
+    }
+    .pay{
+        opacity: 0.8;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    .yup{
+        opacity: 0.6;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    .pep{
+        opacity: 0.4;
+        color: rgba(0, 0, 0, 0.5);
+    
+    }
+    .pup{
+        opacity: 0.2;
+        color: rgba(0, 0, 0, 0.5);
+    
+    }
+    
+    .btwn{
+        margin: auto auto;
+        padding: 0;
+    }
+    .middle img{
+        margin: auto auto;
+        padding-top: 7%;
+    }
+    
+    #meh{
+        color:white;
+        background-color: brown;
+        position: relative;
+        top: 10rem;
+        left: 20rem;
+        height: 40px;
+        width: 120px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    

@@ -1,0 +1,10 @@
+.left{
+width: 25%;
+padding-top: 6.5%;
+align-items: center;
+text-align: justify;
+}
+p{
+    border-radius: 10px;
+    padding-right: 20px;
+}
